@@ -1,0 +1,733 @@
+{
+  "name": "Vesper-dialog",
+  "type": "dialog",
+  "valid": true,
+  "counts": {
+    "intents": 4,
+    "entities": 3,
+    "dialog_nodes": 13
+  },
+  "status": "Available",
+  "created": "2023-09-20T14:51:16.701Z",
+  "updated": "2023-09-20T14:51:16.701Z",
+  "language": "en",
+  "skill_id": "873584cd-80d7-4027-847d-8cca7645a668",
+  "snapshot": "1",
+  "workspace": {
+    "created": "2023-09-20T14:51:16.701Z",
+    "intents": [
+      {
+        "intent": "operation_hours",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "examples": [
+          {
+            "text": "open",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "what are your hours in?",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "when is your store open?",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "when is your store closed?",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "when",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "store",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "hours",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "close",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "greetings",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "examples": [
+          {
+            "text": "hi",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "hello",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "你好",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "hey",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "what's up",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "good morning",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "aloha",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "good afternoon",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "good evening",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "goodbyes",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "examples": [
+          {
+            "text": "see you next time",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "goodbye",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "farewell",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "talk to you soon",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "see ya",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "bye",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "bye bye",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          }
+        ],
+        "description": ""
+      },
+      {
+        "intent": "thank_you",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "examples": [
+          {
+            "text": "谢谢",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "appreciate it",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "thx",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "many thanks",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "thanks so much",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "thanks",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          },
+          {
+            "text": "thank you",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z"
+          }
+        ],
+        "description": ""
+      }
+    ],
+    "updated": "2023-09-20T14:51:16.701Z",
+    "entities": [
+      {
+        "entity": "occasion",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Wedding",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "groomsmen",
+              "best man",
+              "groom",
+              "bride",
+              "bridesmaid"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Congratulations",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "recognition",
+              "celebration",
+              "award",
+              "reward",
+              "success"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Mother's Day",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "mum's day",
+              "mom's day"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Birthday",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "birth day",
+              "b-day",
+              "bday"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Funeral",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "condolences",
+              "sorrow",
+              "grief",
+              "sympathy",
+              "wake",
+              "celebration of life"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Christmas",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "December 25th",
+              "Dec 25",
+              "December 25",
+              "Yule"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Graduation",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "graduating",
+              "grad",
+              "graduate",
+              "commencement"
+            ]
+          }
+        ],
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "relationships",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Friend",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "neighbor",
+              "associate",
+              "acquaintance",
+              "pals",
+              "buddies",
+              "bff",
+              "buddy"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Father",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "pops",
+              "daddy",
+              "dad"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Mother",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "mama",
+              "momma",
+              "mummy",
+              "mommy",
+              "mum",
+              "mom"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Partner",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "husband",
+              "wife",
+              "fiance",
+              "spouse",
+              "girlfriend",
+              "boyfriend"
+            ]
+          },
+          {
+            "type": "synonyms",
+            "value": "Peer",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": [
+              "mates",
+              "coworker",
+              "classmate",
+              "colleague"
+            ]
+          }
+        ],
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "fuzzy_match": true
+      },
+      {
+        "entity": "location",
+        "values": [
+          {
+            "type": "synonyms",
+            "value": "Shanghai",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Beijing",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Shenzhen",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": []
+          },
+          {
+            "type": "synonyms",
+            "value": "Hong Kong",
+            "created": "2023-09-20T14:51:17.389Z",
+            "updated": "2023-09-20T14:51:17.389Z",
+            "synonyms": []
+          }
+        ],
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "fuzzy_match": true
+      }
+    ],
+    "language": "en",
+    "metadata": {
+      "skill": {
+        "counts": {
+          "intents": 4,
+          "entities": 3,
+          "dialog_nodes": 13
+        }
+      },
+      "api_version": {
+        "major_version": "v2",
+        "minor_version": "2018-11-08"
+      }
+    },
+    "dialog_nodes": [
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Hong Kong store is open Thursday to Sunday from 9:00 am until 17:00 pm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1695217762672",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "@location:(Hong Kong)",
+        "dialog_node": "response_7_1695218343757",
+        "previous_sibling": "response_2_1695218319119"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Shenzhen store is open Monday to Wednesday from 9:00 am until 17:00 pm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1695217762672",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "@location:Shenzhen",
+        "dialog_node": "response_2_1695218319119",
+        "previous_sibling": "response_9_1695218108670"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Beijing store is open Monday to Saturday from 9:00 am until 18:00 pm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_9_1695217762672",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "@location:Beijing",
+        "dialog_node": "response_9_1695218108670",
+        "previous_sibling": "response_5_1695218045320"
+      },
+      {
+        "type": "response_condition",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our Shanghai store is open Monday to Saturday from 9:00 am until 18:00 pm."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_9_1695217762672",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "@location:Shanghai",
+        "dialog_node": "response_5_1695218045320"
+      },
+      {
+        "type": "standard",
+        "title": "No Location ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Our hours of operations are listed on <a href=\"https://example.org/hours/\">our Hours page</a>."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_10_1695217228153",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "true",
+        "dialog_node": "node_2_1695219212571",
+        "previous_sibling": "node_9_1695217762672"
+      },
+      {
+        "type": "standard",
+        "title": "Our Locations",
+        "parent": "node_10_1695217228153",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "metadata": {
+          "_customization": {
+            "mcr": true
+          }
+        },
+        "conditions": "@location",
+        "dialog_node": "node_9_1695217762672"
+      },
+      {
+        "type": "standard",
+        "title": "Thank You ",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "You're welcome. Please let me know if you need anything else. 🫡"
+                },
+                {
+                  "text": "My pleasure. 😊"
+                },
+                {
+                  "text": "No problem. Let me know if there is anything else I can help with. 🙂"
+                },
+                {
+                  "text": "I aim to please! 😁"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "random"
+            }
+          ]
+        },
+        "parent": "node_1_1695216174483",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "#thank_you",
+        "dialog_node": "node_7_1695216659831",
+        "previous_sibling": "node_5_1695216387398"
+      },
+      {
+        "type": "standard",
+        "title": "Goodbyes",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Nice talking to you today."
+                },
+                {
+                  "text": "Have a nice day."
+                },
+                {
+                  "text": "Goodbye."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1695216174483",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "#goodbyes",
+        "dialog_node": "node_5_1695216894287",
+        "previous_sibling": "node_7_1695216659831"
+      },
+      {
+        "type": "standard",
+        "title": "Greetings",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hi there. How can I help you?"
+                },
+                {
+                  "text": "Hello. How may I assist you today?"
+                },
+                {
+                  "text": "Hi. What can I help you with?"
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "parent": "node_1_1695216174483",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "#greetings",
+        "dialog_node": "node_5_1695216387398"
+      },
+      {
+        "type": "folder",
+        "title": "Chitchat",
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "dialog_node": "node_1_1695216174483",
+        "previous_sibling": "node_10_1695217228153"
+      },
+      {
+        "type": "standard",
+        "title": "Hours of Operation ",
+        "output": {
+          "generic": []
+        },
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "next_step": {
+          "behavior": "skip_user_input"
+        },
+        "conditions": "#operation_hours",
+        "dialog_node": "node_10_1695217228153",
+        "previous_sibling": "Welcome"
+      },
+      {
+        "type": "standard",
+        "title": "Anything else",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "I didn't understand. You can try rephrasing."
+                },
+                {
+                  "text": "Can you reword your statement? I'm not understanding."
+                },
+                {
+                  "text": "I didn't get your meaning."
+                },
+                {
+                  "text": "It looks like we are not quite getting each other today. Would you like to talk to a human agent instead? If so, please contact us at 555-123-4567 or email us at support@example.org."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "anything_else",
+        "dialog_node": "Anything else",
+        "previous_sibling": "node_1_1695216174483",
+        "disambiguation_opt_out": true
+      },
+      {
+        "type": "standard",
+        "title": "Welcome",
+        "output": {
+          "generic": [
+            {
+              "values": [
+                {
+                  "text": "Hello. My name is Florence and I'm a chatbot here to assist you with your questions about store hours, locations, as well as flower recommendations."
+                }
+              ],
+              "response_type": "text",
+              "selection_policy": "sequential"
+            }
+          ]
+        },
+        "created": "2023-09-20T14:51:17.389Z",
+        "updated": "2023-09-20T14:51:17.389Z",
+        "conditions": "welcome",
+        "dialog_node": "Welcome"
+      }
+    ],
+    "counterexamples": [],
+    "learning_opt_out": false
+  },
+  "description": "",
+  "assistant_id": "d49e0353-0276-4834-a1f0-5bfb59699ae1",
+  "dialog_settings": {
+    "source_assistant": "e217d00d-0587-4c6e-b0e1-4691e4abafee"
+  },
+  "assistant_references": [
+    {
+      "name": "Vesper",
+      "assistant_id": "e217d00d-0587-4c6e-b0e1-4691e4abafee",
+      "skill_reference": "main skill"
+    }
+  ]
+}
